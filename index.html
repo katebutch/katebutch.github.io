@@ -31,13 +31,28 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Raleway';
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: rgb(255, 85, 0);
 }
-
+.button {
+  background-color: rgb(255, 85, 0);
+  border: none;
+  color: rgb(235, 232, 232);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.footer {
+  align-items: center;
+}
   </style>
 
 
@@ -52,11 +67,11 @@ body {
   <a href="#">BOOK ME</a>
 </div>
 
-<button type="button" onclick="alert('thnx! (≧◡≦)')">i like ur style</button>
-<button type="button" onclick="alert('u look fabulous today')">affirmation</button>
-<p> </p>
+<button type="button" class="button" onclick="alert('thnx! (≧◡≦)')">i like ur style</button>
+
+<div>
 <iframe 
-width="50%" 
+width="20%" 
 height="300" 
 scrolling="yes" 
 frameborder="no" 
@@ -68,5 +83,9 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/12
   title="KATE BUTCH" 
   target="_blank" 
   style="color: #cccccc; text-decoration: none;">KATE BUTCH</a> · <a href="https://soundcloud.com/kate-butch-904301820/lindy-sleaze" title="Lindy Sleaze" target="_blank" style="color: #cccccc; text-decoration: none;">Lindy Sleaze</a></div>
+</div> 
+<footer>
+  <button class="footer" type="button" onclick="alert('u look fabulous today')">affirmation</button>
+</footer>
 </body>
 </html>
