@@ -8,24 +8,70 @@
 -->
 
 <!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+<style>
+  .leftcolumn {   
+  float: right;
+  width: 25%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rightcolumn {
+  float: left;
+  width: 75%;
+  font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
 <html lang="en">
   <head>
 
   </head>
   <body>
-    <p>
-      CSS is essentially the language in which we ascribe placement and aesthetic elements to html code. This is the primary visual tool in many websites - CSS dictates what your website 'looks' like. It gives style, structure, glamour and swagger to the elements you have built in your html code. This is crucial to the function of your webpage. Aesthetics and design are the bread and butter of usability and user enjoyability, without it we have clunky websites where important information is inaccessible. This sabotages all  of the hard work that you, an up and coming star in the Dev World, slaved over behind the scenes. If an element has a link, but no one could ever see to click it, does it really exist?
-      
-      Static is the default position for any element in your html. In order to change this and place your element somewhere else on a web page, you would need to specify the desired position for your webpage in the 'style' portion of your html. As static is default, what dictates the order of elements is the order of your html. If your header comes before a button in the body of your html, in top-to-bottom fashion your webpage will display this verbatim. Header at the top, and just below is your fabulously crafted button. There is no CSS needed for this to occur. 
-      
-      In order to dictate the order of operations here on our web page, Relative, Absolute and Fixed are three positions commonly used. But the definitions of these can be hazy - let's de-haze. 
-      
-      Relative, not your cousin but the CSS position, tells an element to have a relationship only to itself. If no other attribute but relative is assigned to an element, it will have absolutely no effect on the elements placement. It will take its position from the order it is placed within your html. However, by adding 20px to the top, it will move 20px from the top relative to its normal position. This is endlessly useful for tweaking elements that are already basically in the right position. Put in simple terms, relative is similar to static, except for the ability to move the element using the left, right, bottom, top or z-index properties.
-      
-      Fixed is perhaps the most straight forward to understand. It simply means it is fixed within the browser or viewport. It won't be affected by tweaking other elements, it will stay put on the page where it has been placed.
-      
-      Absolute allows for positioning that is relative to another element. Important to note, assigning absolute to an element takes the element out of the regular flow of the webpage. Once absolute is assigned, the element takes positioning relative to its ancestor or parent. It is similar to fixed by virtue of being fixed relative to the closest positioned parent element. Absolute and relative are often used in tandem with one another.
-    </p>
+    <div>
+      <div class="leftcolumn">
+        <h3>Navigation</h3>
+        <a href="/index.html">home</a>
+
+      </div>
+
+    </div>
+    <div>
+      <div class="rightcolumn">
+        <div>
+          <h2>CSS Positioning</h2>
+          <h5>Sprint 2 Dev Academy Blog</h5>
+          <p>June 30th 2022</p>
+          
+        </div>
+        <div>
+          <p>
+            CSS is essentially the language in which we ascribe placement and aesthetic elements to html code. This is the primary visual tool in many websites - CSS dictates what your website 'looks' like. It gives style, structure, glamour and swagger to the elements you have built in your html code. This is crucial to the function of your webpage. Aesthetics and design are the bread and butter of usability and user enjoyability, without it we have clunky websites where important information is inaccessible. This sabotages all  of the hard work that you, an up and coming star in the Dev World, slaved over behind the scenes. If an element has a link, but no one could ever see to click it, does it really exist?
+            <p>
+              Static is the default position for any element in your html. In order to change this and place your element somewhere else on a web page, you would need to specify the desired position for your webpage in the 'style' portion of your html. As static is default, what dictates the order of elements is the order of your html. If your header comes before a button in the body of your html, in top-to-bottom fashion your webpage will display this verbatim. Header at the top, and just below is your fabulously crafted button. There is no CSS needed for this to occur.
+            </p>
+            <p>
+            In order to dictate the order of operations here on our web page, Relative, Absolute and Fixed are three positions commonly used. But the definitions of these can be hazy - let's de-haze. 
+           </p>
+           <p>
+            Relative, not your cousin but the CSS position, tells an element to have a relationship only to itself. If no other attribute but relative is assigned to an element, it will have absolutely no effect on the elements placement. It will take its position from the order it is placed within your html. However, by adding 20px to the top, it will move 20px from the top relative to its normal position. This is endlessly useful for tweaking elements that are already basically in the right position. Put in simple terms, relative is similar to static, except for the ability to move the element using the left, right, bottom, top or z-index properties.
+           </p>
+           <p>
+            Fixed is perhaps the most straight forward to understand. It simply means it is fixed within the browser or viewport. It won't be affected by tweaking other elements, it will stay put on the page where it has been placed.
+           </p>
+           <p>
+            Absolute allows for positioning that is relative to another element. Important to note, assigning absolute to an element takes the element out of the regular flow of the webpage. Once absolute is assigned, the element takes positioning relative to its ancestor or parent. It is similar to fixed by virtue of being fixed relative to the closest positioned parent element. Absolute and relative are often used in tandem with one another.
+          </p>
+        </div>
+      </div>
+    
   </body>
 
 </html>
