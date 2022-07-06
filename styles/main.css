@@ -1,13 +1,25 @@
 
 body {
 margin: 0;
-background: rgb(24, 23, 23);
+background: rgba(24, 23, 23, 0.171);
+background-image: url('https://i.imgur.com/Fmcfrwx.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center, center;
+background-attachment: fixed;
+width: 100%;
+height: 100%;
+}
+@media only screen and (min-width:1px) and (max-width:700px) {
+  .body {
+    background-position: center;
+  }
 }
 .header {
 padding: 20px;
 margin: 0px;
 text-align: center;
-background: rgb(24, 23, 23);
+background: rgba(24, 23, 23, 0.493);
 font-family: 'Raleway', sans-serif;
 color:rgb(184, 99, 2);
 font-size: 30px;
@@ -87,4 +99,6 @@ cursor: pointer;
   font-family: 'Raleway', sans-serif;
 }
 
+
+ 
   
