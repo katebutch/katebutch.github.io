@@ -88,10 +88,22 @@ cursor: pointer;
   font-family: 'Raleway', sans-serif;
   color: rgb(231, 229, 228);
 }
-@media screen and (max-width: 800px) {
-   .secondcolumn, .thirdcolumn {   
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .secondcolumn {
     width: 100%;
-    padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thirdcolumn {
+    width: 50%;
   }
 }
 
