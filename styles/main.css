@@ -64,6 +64,8 @@ cursor: pointer;
 }
 
   .navigation {   
+  background-color: #4b4848a9;
+  padding: 1px;
   float: left;
   width: 10%;
   text-align: right;
@@ -77,6 +79,7 @@ cursor: pointer;
 }
 
 .secondcolumn {
+  background-color: #3d3131c4;
   float: left;
   width: 50%;
   font-family: 'Raleway', sans-serif;
